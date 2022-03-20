@@ -1,7 +1,7 @@
 .audio_only_div {
     z-index: 9999;
     background-color: #272B2E;
-    color: #CC6633;
+    color: white;
     cursor: pointer;
     position: relative;
     top: 50%;
