@@ -24,9 +24,8 @@ chrome.runtime.onMessage.addListener(
 
             let alertText = document.createElement('p');
             alertText.className = 'alert_text';
-            alertText.innerHTML = 'Youtube Audio Extension is running. It disables the video stream and uses only the audio stream' +
-                ' which saves battery life and bandwidth / data when you just want to listen to just songs. If you want to watch' +
-                ' video also, click on the extension icon and refresh your page.';
+            alertText.innerHTML = 'YouTube Audio Extension is running. Only audio is being played right now.' +
+                'To watch video also, click on the extension icon and refresh the page.';
 
             extensionAlert.appendChild(alertText);
             let parent = videoElement.parentNode.parentNode;
