@@ -1,12 +1,9 @@
-Youtube Audio 
-=============
+# Youtube Audio 
 
-Extension for turning off video on youtube. 
+This is a fork of [an extension that does the same thing](https://github.com/animeshkundu/youtube-audio) but seems to not be maintained anymore.
 
-I mostly listen to songs a lot on youtube while working. The video playing in the background just heats up my laptop, eats up my battery and data / bandwidth. Youtube doesn't provide this functionality natively.
+The objective is simple; only stream audio on YouTube.
 
-Disable video for youtube songs which saves battery life and bandwidth / data.
+Many people would like to just stream the audio of a particular video, as it is sometimes the main content and playing the video just eats up battery and data.
 
-Avaliable on firefox - [youtube-audio](https://addons.mozilla.org/en-US/firefox/addon/youtube-audio/?src=search)
-
-I don't have a safari or chrome developer account. Anyone willing to help, please PM me. :)
+Right now the extension is only for Firefox, but since WebExtensions is a thing, I plan to make it functional for Chromium-based browsers as well.
